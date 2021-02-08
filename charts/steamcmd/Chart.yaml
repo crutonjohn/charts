@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: latest
+description: steamcmd - Run Steam games and game server software
+name: steamcmd
+version: 1.1.0
+keywords:
+  - steamcmd
+home: https://github.com/k8s-at-home/charts/tree/master/charts/steamcmd
+icon: https://steamcmd.org/icon
+sources:
+  - https://github.com/steamcmd/docker
+  - https://github.com/k8s-at-home/charts/tree/master/charts/steamcmd
+maintainers:
+  - name: crutonjohn
+    email: admin+homelab@curtisrayjohn.com
+dependencies:
+  - name: common
+    repository: https://k8s-at-home.com/charts/
+    version: 2.4.0
